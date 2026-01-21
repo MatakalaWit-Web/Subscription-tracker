@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const subscriptionSchema = new mongoose.SchemaType({
+const subscriptionSchema = new mongoose.Schema({
     name: {
     type: String,
     required: [true, "Subscription type is required"],

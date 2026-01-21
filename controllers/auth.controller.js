@@ -81,6 +81,6 @@ export const login = async (req, res, next) => {
     };
 };
 
-export const logout = async (req, res, next) => {
+export const logout = async (req, res) => {
   res.status(501).json({ success: false, message: 'Not implemented' });
 };
